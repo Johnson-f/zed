@@ -27,6 +27,7 @@ use x11rb::{
     xcb_ffi::XCBConnection,
 };
 
+use std::sync::atomic::AtomicUsize;
 use std::{
     cell::RefCell, ffi::c_void, fmt::Display, num::NonZeroU32, ops::Div, ptr::NonNull, rc::Rc,
     sync::Arc,
@@ -1432,6 +1433,11 @@ impl PlatformWindow for X11Window {
     }
 
     fn draw(&self, scene: &Scene) {
+        static counter: AtomicUsize = AtomicUsize::new(0);
+        dbg!(
+            "refresh!",
+            counter.fetch_add(1, std::sync::atomic::Ordering::Release) + 1
+        );
         let mut inner = self.0.state.borrow_mut();
         inner.renderer.draw(scene);
     }
