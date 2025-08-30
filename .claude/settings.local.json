@@ -18,7 +18,19 @@
       "Bash(node:*)",
       "Bash(cargo check:*)",
       "Bash(cargo test)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(git commit:*)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)"
     ],
     "additionalDirectories": [
       "/Users/mikaylamaki/projects/zed-work/zed-monorepo-real/claude-code-acp/",
