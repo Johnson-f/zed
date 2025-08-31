@@ -6,7 +6,7 @@ You are tasked with generating a comprehensive pull request description followin
 
 1. **Read the PR description template:**
    - First, check if `thoughts/shared/pr_description.md` exists
-   - If it doesn't exist, inform the user that their `humanlayer thoughts` setup is incomplete and they need to create a PR description template at `thoughts/shared/pr_description.md`
+   - If it doesn't exist, inform the user that they need to create a PR description template at `thoughts/shared/pr_description.md`
    - Read the template carefully to understand all sections and requirements
 
 2. **Identify the PR to describe:**
@@ -53,7 +53,6 @@ You are tasked with generating a comprehensive pull request description followin
 
 8. **Save and sync the description:**
    - Write the completed description to `thoughts/shared/prs/{number}_description.md`
-   - Run `humanlayer thoughts sync` to sync the thoughts directory
    - Show the user the generated description
 
 9. **Update the PR:**

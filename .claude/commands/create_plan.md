@@ -49,7 +49,7 @@ Then wait for the user's input.
 
    These agents will:
    - Find relevant source files, configs, and tests
-   - Identify the specific directories to focus on (e.g., if WUI is mentioned, they'll focus on humanlayer-wui/)
+   - Identify the specific directories to focus on for the specific project
    - Trace data flow and key functions
    - Return detailed explanations with file:line references
 
@@ -276,7 +276,6 @@ After structure approval:
 ### Step 5: Sync and Review
 
 1. **Sync the thoughts directory**:
-   - Run `humanlayer thoughts sync` to sync the newly created plan
    - This ensures the plan is properly indexed and available
 
 2. **Present the draft plan location**:
@@ -299,7 +298,6 @@ Please review it and let me know:
 - Adjust technical approach
 - Clarify success criteria (both automated and manual)
 - Add/remove scope items
-- After making changes, run `humanlayer thoughts sync` again
 
 4. **Continue refining** until the user is satisfied
 
@@ -322,7 +320,7 @@ Please review it and let me know:
 - Research actual code patterns using parallel sub-tasks
 - Include specific file paths and line numbers
 - Write measurable success criteria with clear automated vs manual distinction
-- automated steps should use `make` whenever possible - for example `make -C humanlayer-wui check` instead of `cd humanalyer-wui && bun run fmt`
+- automated steps should use `make` whenever possible when available in the project
 
 4. **Be Practical**:
 - Focus on incremental, testable changes
