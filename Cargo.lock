@@ -135,6 +135,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "afl"
+version = "0.15.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e3d197cb6a514b7dffadc7ccab0d1215bed207bcd7532306fe433678541bc3a9"
+dependencies = [
+ "home",
+ "libc",
+ "rustc_version",
+ "xdg",
+]
+
+[[package]]
 name = "agent"
 version = "0.1.0"
 dependencies = [
@@ -14377,6 +14389,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "scheduler"
+version = "0.1.0"
+dependencies = [
+ "afl",
+ "anyhow",
+ "async-std",
+ "async-task",
+ "futures 0.3.31",
+ "rand 0.8.5",
+ "rand_chacha 0.3.1",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
 name = "schema_generator"
 version = "0.1.0"
 dependencies = [
@@ -20177,6 +20205,12 @@ name = "xcursor"
 version = "0.3.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0ef33da6b1660b4ddbfb3aef0ade110c8b8a781a3b6382fa5f2b5b040fd55f61"
+
+[[package]]
+name = "xdg"
+version = "3.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2fb433233f2df9344722454bc7e96465c9d03bff9d77c248f9e7523fe79585b5"
 
 [[package]]
 name = "xdg-home"

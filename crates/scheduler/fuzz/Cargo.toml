@@ -1,0 +1,32 @@
+[package]
+name = "scheduler-fuzz"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+scheduler = { path = "..", features = ["fuzzing"] }
+
+[[bin]]
+name = "basic"
+path = "fuzz_targets/basic.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "sessions" 
+path = "fuzz_targets/sessions.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "priorities"
+path = "fuzz_targets/priorities.rs" 
+test = false
+doc = false
+
+[[bin]]
+name = "timers"
+path = "fuzz_targets/timers.rs"
+test = false
+doc = false

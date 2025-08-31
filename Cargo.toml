@@ -139,6 +139,7 @@ members = [
     "crates/rope",
     "crates/rpc",
     "crates/rules_library",
+    "crates/scheduler",
     "crates/schema_generator",
     "crates/search",
     "crates/semantic_index",
