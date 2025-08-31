@@ -30,14 +30,24 @@
       "Read(/Users/nathan/src/agent-client-protocol/**)",
       "Read(/Users/nathan/src/agent-client-protocol/**)",
       "Read(/Users/nathan/src/agent-client-protocol/**)",
-      "Read(/Users/nathan/src/agent-client-protocol/**)"
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)",
+      "Read(/Users/nathan/src/agent-client-protocol/rust/**)"
     ],
     "additionalDirectories": [
       "/Users/mikaylamaki/projects/zed-work/zed-monorepo-real/claude-code-acp/",
       "/Users/mikaylamaki/projects/zed-work/zed-monorepo-real/agentic-coding-protocol/",
       "/Users/nathan/src/agent",
       "/Users/nathan/src/agent-client-protocol/",
-      "/Users/nathan/src/claude-code-acp"
+      "/Users/nathan/src/claude-code-acp",
+      "/Users/nathan/src/cloud/"
     ]
   }
 }
